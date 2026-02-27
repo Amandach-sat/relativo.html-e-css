@@ -1,0 +1,120 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    position:relative;
+    width:90%;
+    height: 650px;
+    background-color: rgb(246, 246, 248);
+    margin: auto;
+
+}
+body{
+    
+        
+        font-size: 15px;
+        font-family: verdana;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+
+}
+#cabecalho{
+    position:relative;
+    width:100%;
+    height: 100px;
+    background-color: rgb(68, 249, 71);
+    text-align: center;
+    
+}
+
+#esquerda{
+    position:relative;
+    width:30%;
+    height: 450px;
+    background-color: rgb(157, 236, 250);
+    float: left;
+    
+}
+#menu{
+    position:absolute;
+    top: 20px;
+    left:20px;
+    width: 370px;
+    height:200px;
+    background-color: rgb(249, 250, 250);
+}
+
+#publicidade{
+    position:absolute;
+    top: 230px;
+    left:20px;
+    width: 370px;
+    height:200px;
+    background-color: rgb(249, 250, 250);
+    
+}
+
+#direita{
+    position:relative;
+    width:70%;
+    height: 450px;
+    background-color: rgb(125, 51, 230);
+    float: left;
+    
+    
+}
+#tag{
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    width: 940px;
+    height: 420px;
+    background-color: white;
+    z-index: 2;
+}
+
+#autor{
+    position:absolute;
+    top: 80px;
+    left: 5px;
+    width: 940px;
+    height:150px;
+    background-color: rgb(246, 164, 98);
+    z-index: 3;
+}
+#img{
+    position:absolute;
+    top: 240px;
+    left: 5px;
+    width: 940px;
+    height:200px;
+    background-color: rgb(199, 169, 251);
+    z-index: 3;
+}
+#footer{
+    position:relative;
+    width:100%;
+    height: 60px;
+    background-color: rgb(28, 23, 16);
+    color: white;
+    clear: left;
+
+    
+
+}
+#titulo2{
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    width: 940px;
+    height: 30px;
+    background-color: rgb(163, 244, 244);
+    z-index: 3;
+    text-align: center;
+}
+            
